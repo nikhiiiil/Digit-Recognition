@@ -7,15 +7,3 @@ The training data set, (train.csv), has 785 columns. The first column, called "l
 
 Each pixel column in the training set has a name like pixelx, where x is an integer between 0 and 783, inclusive. To locate this pixel on the image, suppose that we have decomposed x as x = i * 28 + j, where i and j are integers between 0 and 27, inclusive. Then pixelx is located on row i and column j of a 28 x 28 matrix, (indexing by zero).
 
-For example, pixel31 indicates the pixel that is in the fourth column from the left, and the second row from the top, as in the ascii-diagram below.
-
-Visually, if we omit the "pixel" prefix, the pixels make up the image like this:
-
-'''
-000 001 002 003 ... 026 027
-028 029 030 031 ... 054 055
-056 057 058 059 ... 082 083
- |   |   |   |  ...  |   |
-728 729 730 731 ... 754 755
-756 757 758 759 ... 782 783 
-'''
