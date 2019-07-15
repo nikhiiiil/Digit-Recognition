@@ -1,3 +1,6 @@
+#Digit Recognition
+
+URL FOR DATASET: https://www.kaggle.com/c/digit-recognizer/data
 
 The data files train.csv  contain gray-scale images of hand-drawn digits, from zero through nine.
 
